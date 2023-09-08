@@ -7,6 +7,7 @@ function dieta(n) {
     let suma = 0
 
     let alimento
+
     for (i = 0; i < n; i++) {
         let nombres = ['cucarachaEspacial', 'fileteDeTulkun', 'pluTomates']
         let nombreRam = nombres[Math.floor(Math.random() * nombres.length)]

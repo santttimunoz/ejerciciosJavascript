@@ -21,7 +21,8 @@ function clones() {
             edadMayor = clon.edad                                      
         }
 
-        arregloColnes.push(clon)        
+        arregloColnes.push(clon) 
+        // console.log(`edades generadas: ${clon.edad}`)      
                                    
     }
 
@@ -32,6 +33,8 @@ function clones() {
          } 
     console.log("la edad mayor es: " + edadMayor)
     console.log("numero de veces que se repite la edad mayor: " + repe)
+
+    
 
     return arregloColnes
 

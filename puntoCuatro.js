@@ -3,11 +3,11 @@ function revisar(n){
 
 let negativos = Array.from({length : n} , ()=> Math.floor(Math.random() * 10) - 2)
     
-console.log(negativos)
+
 let encontrarNegativas = negativos.filter(function(negativa){    
     return negativa < 0
 })
-
+console.log(negativos)
 return encontrarNegativas
 }
 
